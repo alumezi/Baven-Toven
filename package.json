@@ -1,0 +1,15 @@
+{
+  "name": "baven",
+  "version": "1.0.0",
+  "description": "baven-toven",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "alumezi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

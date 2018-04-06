@@ -1,0 +1,46 @@
+
+
+.photos{
+    position: relative;
+    margin-top: 10px;
+    .composition{
+        width: 55%;
+        box-shadow:0 1.5rem 4rem rgba($black, .4);
+        position:absolute;
+        z-index: 1;
+        transition: all .2s;
+
+        &:hover{
+            transform:scale(1.5);
+            box-shadow:0 2rem 5rem rgba($black, .6);
+            z-index: 2;
+        }
+    }
+    .comp1{
+        left: 0;
+        top: -2rem;
+    }
+    .comp2{
+        right: 0;
+        top: 2rem;
+
+    }
+    .comp3{
+        left: 20%;
+        top: 10rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    html{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 7px;
+    }
+}
+
