@@ -1,3 +1,5 @@
+
+/*
 document.getElementById('italiano').addEventListener('click', function(){
     document.getElementById('subTranslation').innerHTML = "Dove e la vita";
     document.getElementById('prenota').innerHTML = "Prenota Ora!";
@@ -11,7 +13,7 @@ document.getElementById('english').addEventListener('click', function(){
     document.getElementById('prenota').innerHTML = "Book Now!";
     document.getElementById('prenotazione').innerHTML = "Book Now in: ";
 ;})
-
+*/
 
     $('#prenota').click(function(event) {
     
