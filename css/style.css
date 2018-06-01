@@ -69,10 +69,12 @@ body {
   text-transform: uppercase; }
 
 p {
-  font-size: 1.6rem; }
+  font-size: 1.8rem; }
 
 .subtext {
-  padding: 2rem; }
+  padding: 2rem;
+  font-weight: 500
+}
 
 .u-center-text {
   text-align: center; }
@@ -99,6 +101,14 @@ p {
   .photos .comp3 {
     left: 20%;
     top: 10rem; }
+    .photos .comp4 {
+      left: 2%;
+      z-index: 0;
+      top: 25rem; }
+      .photos .comp5 {
+        left: 50%;
+        z-index: 0;
+        top: 28rem; }
 
 @media only screen and (max-width: 1000px) {
   html {
